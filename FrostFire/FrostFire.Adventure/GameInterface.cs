@@ -16,5 +16,10 @@ namespace FrostFire.Adventure
         {
             InitializeComponent();
         }
+
+        private void TestBtnClikcEvent(object sender, EventArgs e)
+        {
+            lblGold.Text = "Gold Here";
+        }
     }
 }
