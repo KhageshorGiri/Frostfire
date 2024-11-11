@@ -36,7 +36,6 @@
             lblGold = new Label();
             lblExperience = new Label();
             lblLevel = new Label();
-            button1 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -107,22 +106,11 @@
             lblLevel.Size = new Size(0, 19);
             lblLevel.TabIndex = 7;
             // 
-            // button1
-            // 
-            button1.Location = new Point(265, 223);
-            button1.Name = "button1";
-            button1.Size = new Size(86, 26);
-            button1.TabIndex = 8;
-            button1.Text = "Test";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += TestBtnClikcEvent;
-            // 
             // GameInterface
             // 
             AutoScaleDimensions = new SizeF(8F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(717, 646);
-            Controls.Add(button1);
             Controls.Add(lblLevel);
             Controls.Add(lblExperience);
             Controls.Add(lblGold);
@@ -147,6 +135,5 @@
         private Label lblGold;
         private Label lblExperience;
         private Label lblLevel;
-        private Button button1;
     }
 }
